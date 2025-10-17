@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: web
-        image: apache:stable
+        image: httpd:stable
         ports:
         - containerPort: 80
