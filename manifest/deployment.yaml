@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: web
-        image: busybox:stable
+        image: nginx:stable
         ports:
         - containerPort: 80
